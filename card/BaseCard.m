@@ -30,7 +30,7 @@
 
 -(NSString*)getImgPath
 {
-    return @"http://localhost/ios";
+    return @"http://localhost/lulu";
 }
 
 - (void)loadDisplayContenWith:(CellDataObj *)cellDatas {
