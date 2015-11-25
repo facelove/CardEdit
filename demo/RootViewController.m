@@ -148,7 +148,7 @@
         self.homeRequest.delegate=nil;
         self.homeRequest=nil;
     }
-    NSString *string=@"http://localhost/lulu/web/index.php?r=page/home&view=1";
+    NSString *string=[IfaceManager getIfaceHomeView];
      self.homeRequest=[[ASIHTTPRequest alloc] initWithURL:[NSURL URLWithString:string]];
      DNSLog(@"请求URL：%@",string);
     self.homeRequest.delegate=self;

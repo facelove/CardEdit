@@ -12,6 +12,7 @@
 		1B3BC4291BB5A863009A6645 /* CardDataObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BC4281BB5A863009A6645 /* CardDataObj.m */; };
 		1B4485D81BB2FF79006C003E /* CardType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B4485D71BB2FF79006C003E /* CardType.plist */; };
 		1B4485D91BB2FF79006C003E /* CardType.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B4485D71BB2FF79006C003E /* CardType.plist */; };
+		1B8785FC1C061502009710A4 /* IfaceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8785FB1C061502009710A4 /* IfaceManager.m */; };
 		823C18125C5A3675E4E72BE5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0D9824C4BDCAE774894BC6 /* libPods.a */; };
 		EC0446781BA12E6300E705F6 /* bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC0446771BA12E6300E705F6 /* bg@2x.jpg */; };
 		EC04467D1BA15F4F00E705F6 /* common_background.png in Resources */ = {isa = PBXBuildFile; fileRef = EC04467C1BA15F4F00E705F6 /* common_background.png */; };
@@ -63,7 +64,6 @@
 		EC76464A1BB6BFAB00A76DC3 /* CardCell7.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7646361BB6BFAB00A76DC3 /* CardCell7.m */; };
 		EC76464B1BB6BFAB00A76DC3 /* CardCell8.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7646381BB6BFAB00A76DC3 /* CardCell8.m */; };
 		EC76464C1BB6BFAB00A76DC3 /* CardManage.m in Sources */ = {isa = PBXBuildFile; fileRef = EC76463A1BB6BFAB00A76DC3 /* CardManage.m */; };
-		EC8765C71BD891350053EE85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8765C91BD891350053EE85 /* Localizable.strings */; };
 		ECBCF6C31B9FD2F800AB0B8C /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBCF6C21B9FD2F800AB0B8C /* libstdc++.6.0.9.dylib */; };
 		ECBCF6EC1BA0219400AB0B8C /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBCF6EA1BA0219400AB0B8C /* userPosition.png */; };
 		ECBCF6ED1BA0219400AB0B8C /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBCF6EB1BA0219400AB0B8C /* userPosition@2x.png */; };
@@ -176,6 +176,8 @@
 		1B3BC4271BB5A863009A6645 /* CardDataObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDataObj.h; sourceTree = "<group>"; };
 		1B3BC4281BB5A863009A6645 /* CardDataObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardDataObj.m; sourceTree = "<group>"; };
 		1B4485D71BB2FF79006C003E /* CardType.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CardType.plist; sourceTree = "<group>"; };
+		1B8785FB1C061502009710A4 /* IfaceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IfaceManager.m; sourceTree = "<group>"; };
+		1B8785FD1C061656009710A4 /* IfaceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IfaceManager.h; path = common/IfaceManager.h; sourceTree = SOURCE_ROOT; };
 		368BBCD578B5B679BE98C470 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4AA85E79041164A5F1E12181 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		DD0D9824C4BDCAE774894BC6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,7 +253,6 @@
 		EC7646381BB6BFAB00A76DC3 /* CardCell8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell8.m; sourceTree = "<group>"; };
 		EC7646391BB6BFAB00A76DC3 /* CardManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardManage.h; sourceTree = "<group>"; };
 		EC76463A1BB6BFAB00A76DC3 /* CardManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardManage.m; sourceTree = "<group>"; };
-		EC8765C81BD891350053EE85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ECBCF6C21B9FD2F800AB0B8C /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		ECBCF6EA1BA0219400AB0B8C /* userPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userPosition.png; sourceTree = "<group>"; };
 		ECBCF6EB1BA0219400AB0B8C /* userPosition@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userPosition@2x.png"; sourceTree = "<group>"; };
@@ -332,7 +333,7 @@
 		ECC4F2A51B9E75B50004064D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		ECC4F2A71B9E75C10004064D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ECC4F2A91B9E75CA0004064D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		ECC4F2BB1B9EAC9C0004064D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ECC4F2BB1B9EAC9C0004064D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		ECC4F2CB1B9EBC7A0004064D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ECC4F2CD1B9EBC830004064D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ECC4F2CF1B9EBCC40004064D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
@@ -444,6 +445,15 @@
 			);
 			name = Plist;
 			path = demo;
+			sourceTree = "<group>";
+		};
+		1B8785F91C0614C9009710A4 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				1B8785FD1C061656009710A4 /* IfaceManager.h */,
+				1B8785FB1C061502009710A4 /* IfaceManager.m */,
+			);
+			path = config;
 			sourceTree = "<group>";
 		};
 		5DF51C0CF8E75B8264281816 /* Frameworks */ = {
@@ -709,8 +719,7 @@
 		ECBEC2C71B9D3887002BBECC = {
 			isa = PBXGroup;
 			children = (
-				EC8765C91BD891350053EE85 /* Localizable.strings */,
-				ECC4F2BB1B9EAC9C0004064D /* PrefixHeader.pch */,
+				1B8785F91C0614C9009710A4 /* config */,
 				ECBEC2D21B9D3887002BBECC /* demo */,
 				ECBEC2E01B9D3887002BBECC /* Images.xcassets */,
 				1B4485D61BB2FF37006C003E /* Plist */,
@@ -759,6 +768,7 @@
 		ECBEC2D31B9D3887002BBECC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ECC4F2BB1B9EAC9C0004064D /* PrefixHeader.pch */,
 				ECBEC2D41B9D3887002BBECC /* Info.plist */,
 				ECBEC2D51B9D3887002BBECC /* main.m */,
 			);
@@ -929,7 +939,6 @@
 				ECBCF74C1BA0467A00AB0B8C /* topbar_bell_icon@2x.png in Resources */,
 				EC7646141BB699E400A76DC3 /* toast_wait.png in Resources */,
 				EC7646121BB699E400A76DC3 /* toast_upload.png in Resources */,
-				EC8765C71BD891350053EE85 /* Localizable.strings in Resources */,
 				ECC4F2D41B9EBFDE0004064D /* pin_green@2x.png in Resources */,
 				ECBCF7611BA04DC900AB0B8C /* menu_setting@3x.png in Resources */,
 				ECBEC2E41B9D3887002BBECC /* LaunchScreen.xib in Resources */,
@@ -1089,6 +1098,7 @@
 				ECBEC2D61B9D3887002BBECC /* main.m in Sources */,
 				EC25A1B41BA6849C00B60793 /* VOSegment.m in Sources */,
 				1B3BC4251BB5A424009A6645 /* CDRTranslucentSideBar.m in Sources */,
+				1B8785FC1C061502009710A4 /* IfaceManager.m in Sources */,
 				EC7646481BB6BFAB00A76DC3 /* CardCell5.m in Sources */,
 				EC25A1BC1BA684BB00B60793 /* CommonUtil.m in Sources */,
 				ECBEC3191B9D76A2002BBECC /* BaseViewController.m in Sources */,
@@ -1114,14 +1124,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC8765C91BD891350053EE85 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC8765C81BD891350053EE85 /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		ECBEC2DD1B9D3887002BBECC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

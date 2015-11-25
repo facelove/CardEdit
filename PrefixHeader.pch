@@ -15,5 +15,5 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "NSString+Parse.h"
 #import "SSToastView.h"
-
+#import "IfaceManager.h"
 #endif

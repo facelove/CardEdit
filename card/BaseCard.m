@@ -30,7 +30,7 @@
 
 -(NSString*)getImgPath
 {
-    return @"http://localhost/ios";
+    return [IfaceManager getIfaceString];
 }
 
 - (void)loadDisplayContenWith:(CellDataObj *)cellDatas {
