@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cardType_1</key>
+	<string>CardCell1</string>
+	<key>cardType_2</key>
+	<string>CardCell2</string>
+	<key>cardType_3</key>
+	<string>CardCell3</string>
+	<key>cardType_4</key>
+	<string>CardCell4</string>
+	<key>cardType_5</key>
+	<string>CardCell5</string>
+	<key>cardType_6</key>
+	<string>CardCell6</string>
+	<key>cardType_7</key>
+	<string>CardCell7</string>
+	<key>cardType_8</key>
+	<string>CardCell8</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+
+*.png
+
+*.jpg
+
+*.xcuserstate
+
+*.jpeg
+
+lib/AMapSearchKit.framework/Versions/2.6.0.29103c6/AMapSearchKit
+
+lib/MAMapKit.framework/Versions/2.6.0.e9e21b6/MAMapKit
+
+*.strings
+
+*.sqlite
