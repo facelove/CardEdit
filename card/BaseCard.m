@@ -30,7 +30,11 @@
 
 -(NSString*)getImgPath
 {
+<<<<<<< HEAD
     return [IfaceManager getIfaceString];
+=======
+    return @"http://localhost/lulu";
+>>>>>>> origin/master
 }
 
 - (void)loadDisplayContenWith:(CellDataObj *)cellDatas {

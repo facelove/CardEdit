@@ -52,6 +52,9 @@
         {
             button.frame=CGRectMake((i-4)*imageWidth, imageHeight, imageWidth, imageHeight);
         }
+        button.layer.masksToBounds=YES;
+        button.layer.cornerRadius=10;
+        
         [self addSubview:button];
     }
     return nil;
