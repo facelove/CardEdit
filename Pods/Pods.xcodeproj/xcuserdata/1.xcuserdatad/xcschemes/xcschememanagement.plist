@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ASIHTTPRequest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>Reachability.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 		<key>SDWebImage.xcscheme</key>
 		<dict>
@@ -17,12 +27,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1893DE70459B9C5430E1E53597BF9817</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5352D432641F0656C90741034E32F31E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>6FCC31A2CAFB882E89704747F16D1952</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88475BA1A6EA804EF0C74D728B9B3DD8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA9C00E972F6D6702AB82C0FE24B7D6A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
